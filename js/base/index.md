@@ -20,3 +20,18 @@ safari   webkit
 
 # 基础语法
 
+## 变量(variable)
+
+# 变量声明
+  声明、赋值分解
+  单一var
+# 命名规则  
+  变量名必须以英文字母、_、$ 开头
+  变量名可以包裹英文字母、_、$、数字
+  不可以用系统的关键字、保留字作为变量名
+
+![](assets/js/keywords.png)
+
+![](assets/js/keep-keywords.png)
+
+ 
