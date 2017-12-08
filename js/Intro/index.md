@@ -1,11 +1,15 @@
 [什么是Javascript](/?js)
 
-JavaScript 是允许你在网页中实现复杂事情的一门编程语言 
-每次当你浏览网页时不只是显示静态信息
-显示即时更新的内容， 或者交互式的地图，或 2D/3D 图形动画，又或者自动播放视频等
+允许你在网页中实现复杂事情的一门编程语言
+
+当你浏览网页不只是显示静态信息
+显示即时更新的内容
+或者交互式的地图
+或 2D/3D 图形动画
+又或者自动播放视频等
 
 # 历史
-作为Netscape navigator浏览器的一部分首次出现在1996年。
+作为Netscape navigator浏览器的一部分首次出现在1996年
 它设计初衷是改善网页的用户体验
 作者 Brendan Eich
 早期被命名为LiveScript 
@@ -16,14 +20,14 @@ JavaScript 是允许你在网页中实现复杂事情的一门编程语言
 
 1 Shell部分
 2 内核部分
-渲染引擎(语法规则和渲染)
+渲染引擎
 js引擎
 
 # js特色
 
 * 解释性语言
-* 单线程 
-* European Computer Manufactures Association标准
+* 单线程
+* ECMA标准
 
 # HTML是一种标记语言
 用来结构化我们的网页内容和赋予内容含义
@@ -40,16 +44,16 @@ js引擎
 是建立在 JavaScript 语言的核心之上的功能
 在JavaScript 代码里
 被称为应用程序编程接口 [Application Programming Interfaces (APIs)] 
-的功能会提供额外的超能力给你使用。
+的功能会提供额外的超能力给你使用
 
 # Browser APIs
 
 文档对象模型 API [DOM (Document Object Model) API] 
 允许你操作 HTML 和 CSS，创建，移除和修改 HTML
 动态地应用新的样式到你的页面，等等。比如说每次你在一个页面里看到一个弹出窗口
-或者显示一些新的内容（像我们在上面的简单演示中看到那样），这就是 DOM 在运作
+或者显示一些新的内容（像我们在上面的简单演示中看到那样）这就是 DOM 在运作
 
-地理定位 API [Geolocation API] 获取地理信息。
+地理定位 API [Geolocation API] 获取地理信息
 这就是为什么谷歌地图 [Google Maps] 可以找到你的位置
 而且标示在地图上
 
@@ -58,20 +62,5 @@ https://experiments.withgoogle.com/chrome?tag=WebGL
 
 音像和影像 APIs [Audio and Video APIs]
 允许运用多媒体去做一些非常有趣的事情
-比如在网页中播放音像和影像，或者从你的网页摄像头中获取获取录像.
-
-
-# 注释
-javaScript 代码中书写会被浏览器忽略掉的注释是可行的
-并且注释只用来为你的开发者同事提供关于代码如何工作的指引
-
-单行注释书写在一个双正斜杠后 (//)
- // I am a comment
-
-多行注释书写在字符串 /* 和 */ 之间， 比如：
-/*
-I am also
-  a comment
-*/
-
-# 猜数字游戏
+比如在网页中播放音像和影像
+或者从你的网页摄像头中获取获取录像
