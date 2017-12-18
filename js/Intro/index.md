@@ -12,8 +12,8 @@
 作为Netscape navigator浏览器的一部分首次出现在1996年
 它设计初衷是改善网页的用户体验
 作者 Brendan Eich
-早期被命名为LiveScript 
-后因和Sun公司合作改名 
+早期被命名为LiveScript
+后因和Sun公司合作改名
 后来Sun公司被Oracle收购 
 
 # 浏览器分二部分
