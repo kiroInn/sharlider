@@ -22,6 +22,3 @@
 ## 被认定为false的值
 
 undefined, null, NaN, "", 0, false
-
-
-
