@@ -64,3 +64,19 @@ https://experiments.withgoogle.com/chrome?tag=WebGL
 允许运用多媒体去做一些非常有趣的事情
 比如在网页中播放音像和影像
 或者从你的网页摄像头中获取获取录像
+
+# 画出你的DOM
+
+<html>
+    <head>
+        <title>Sample Page</title>
+    </head>
+    <body>
+        <p>Hello World!</p>
+        <ul>
+            <li>chapter 1</li>
+            <li>chapter 1</li>
+            <li>chapter 1</li>
+        </ul>
+    </body>
+</html>

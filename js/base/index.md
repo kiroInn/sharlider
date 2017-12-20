@@ -21,7 +21,20 @@
   变量名可以包裹英文字母、_、$、数字
   不可以用系统的关键字、保留字作为变量名
 
+# 关键字
+break do instanceof typeof case else 
+new var catch finally return void continue 
+for switch while debugger function this 
+with default if throw delete in try let
+
 ![](assets/js/keywords.png)
+
+# 保留字
+abstract enum int short boolean export
+interface static byte extends long
+char final native synchronized class float
+package throws const goto private transient
+debugger implements protected volatile double import public
 
 ![](assets/js/keep-keywords.png)
 
@@ -34,6 +47,8 @@ Undefined、Null、Boolean、Number 和 String
 
 # 引用类型
 Object, Array ...
+
+# typeof操作符
 
 # js语句基本规则
 语句后面要用分号结束";"
