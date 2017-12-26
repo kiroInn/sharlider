@@ -57,6 +57,11 @@ ECMAScript 操作符的与众不同之处在于，它们能够适用于很多值
 
 ## 关系操作符
 
+When comparing a string with a number, JavaScript will convert the string to a number when doing the comparison.
+An empty string converts to 0. A non-numeric string converts to NaN which is always false.
+
+When comparing two strings, "2" will be greater than "12", because (alphabetically) 1 is less than 2.
+
 ## 相等操作符
 相等和不相等
 
