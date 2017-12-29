@@ -65,10 +65,13 @@ JavaScript 中的参数在内部是用一个数组来表示的
 2 一切声明的全局变量,全是window的属性
 
 # Result?
-![](assets/js/keep-keywords.png)
+![](assets/js/execute-context.png)
 
 # Resolve Step
 1 创建AO(active object) 对象
 2 找形参与变量声明,将变量和星灿明作为AO属性名,值为undefined
 3 将实参值和形参统一
 4 在函数体里找函数声明,值赋予函数体
+
+# 练习
+![](assets/js/execute-context1.png)
