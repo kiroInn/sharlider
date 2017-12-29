@@ -21,7 +21,6 @@
 # with语句
 
 # switch语句
-
 # Practice
 1.计算n的阶乘,n可输入
 2.计算2的n次幂,n可输入

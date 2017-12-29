@@ -3,3 +3,4 @@
 [Base](?js/base)
 [Operator](?js/operator)
 [Statement](?js/statement)
+[Function](?js/function)
