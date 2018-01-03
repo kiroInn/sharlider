@@ -39,15 +39,25 @@ JavaScript 中的参数在内部是用一个数组来表示的
 # return
 终止条件 返回值
 
-# 写一个函数,实现手机价格报价
+# Recursion
+将一个问题分解为一组相似的子问题
+每一个都用一个寻常解去解决
+直接的或间接地调用自身的一种函数就是递归
 
-# 函数分类
+# 函数几种声明
+1 函数声明
+2 函数表达式
+3 Function类型
+
+# 声明与表达式的区别
 
 # execution context
 执行环境定义了变量或函数有权访问的其他数据
 
+global && local
 每个执行环境都有一个与之关联的变量对象
 全局执行环境被认为是window对象
+
 # 作用域链
  保证对执行环境有权访问的所有变量和函数的有序访问
 
@@ -72,7 +82,7 @@ JavaScript 中的参数在内部是用一个数组来表示的
 ![](assets/js/execute-context.png)
 
 # Resolve Step
-1 创建AO(active object) 对象
+1 创建(activation object)活动对象
 2 找形参与变量声明,将变量和星灿明作为AO属性名,值为undefined
 3 将实参值和形参统一
 4 在函数体里找函数声明,值赋予函数体
@@ -97,3 +107,5 @@ JavaScript 中的参数在内部是用一个数组来表示的
 
 only expression can execution!
 能被执行符号执行的表达式,这个函数的名字就会被自动忽略
+
+# 写一个函数,实现手机价格报价
