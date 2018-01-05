@@ -82,10 +82,10 @@ global && local
 ![](assets/js/execute-context.png)
 
 # Resolve Step
-1 创建(activation object)活动对象
-2 找形参与变量声明,将变量和星灿明作为AO属性名,值为undefined
+1 创建(current context)上下文
+2 提升变量与形参
 3 将实参值和形参统一
-4 在函数体里找函数声明,值赋予函数体
+4 提升函数声明
 
 # 练习
 ![](assets/js/execute-context1.png)
