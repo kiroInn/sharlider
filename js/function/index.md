@@ -90,6 +90,10 @@ global && local
 ## 练习
 ![](assets/js/execute-context1.png)
 
+## 什么是作用域链?
+## 作用域链的形成流程？
+## 内部属性 [[Scope]] 的概念?
+
 ## 匿名函数
 
 是指一个函数没有名字
@@ -98,7 +102,7 @@ global && local
 
 ## 立即执行函数
 
-(function(){experssion;}())
+(function(){experssion}())
 (function(){experssion;})()
 
  -function(a){return a}(100);
@@ -125,6 +129,8 @@ only expression can execution!
 包：作用域
 闭包：封闭的作用域
 
+是使用被作用域封闭的变量，函数，闭包等执行的一个函数的作用域。
+
 闭包是由于作用域链的机制自然而然形成的
 当内部函数被保存到外部时,将会生成闭包
 
@@ -134,5 +140,5 @@ only expression can execution!
 
 封闭变量
 延长生存周期
-可是实现封装,属性私有化
+可是模拟私有方法
 模块化开发,防止污染全局变量
