@@ -58,19 +58,19 @@ global && local
 每个执行环境都有一个与之关联的变量对象
 全局执行环境被认为是window对象
 
-# 作用域链
+## 作用域链
  保证对执行环境有权访问的所有变量和函数的有序访问
 
-# 如何实现作用域链的
+## 如何实现作用域链的
 
 [[scope]]为js引擎所使用的作用域链,里面存储了运行期context集合。
 集合使用链表实现
 
-# javascript执行流程
+## javascript执行流程
 语法分析
 预编译
 解释运行
-# Before预编译
+## Before预编译
 
 1.imply global
   即任何变量,如果变量未经声明就赋值
@@ -78,34 +78,61 @@ global && local
 
 2 一切声明的全局变量,全是window的属性
 
-# Result?
+## Result?
 ![](assets/js/execute-context.png)
 
-# Resolve Step
+## Resolve Step
 1 创建(current context)上下文
 2 提升变量与形参
 3 将实参值和形参统一
 4 提升函数声明
 
-# 练习
+## 练习
 ![](assets/js/execute-context1.png)
 
-# 闭包
-当内部函数被保存到外部时,将会生成闭包,闭包会导致原有作用域链不释放,造成内存泄漏。
+## 匿名函数
+
+是指一个函数没有名字
+并且被立刻调用
+立即执行函数就是匿名函数
+
+## 立即执行函数
+
+(function(){experssion;}())
+(function(){experssion;})()
+
+ -function(a){return a}(100);
+ fn = function(a){return a}(100)
+ !function(a){return a}(100)
+ 0,function(a){console.log(a)}(100)
+
+PS：*、/、%不能使立即执行函数得出结果并且会报错
+
+only expression can execution!
+能被执行符号执行的表达式,这个函数的名字就会被自动忽略
+## 作用
+
+防止变量的污染
+在函数自身内部创建一个局部作用域
+所有在该函数内部创建的变量都会在执行后被销毁
+对外部变量没有影响
+
+# 写一个函数,实现手机价格报价
+
+## 闭包
+
+闭：封闭
+包：作用域
+闭包：封闭的作用域
+
+闭包是由于作用域链的机制自然而然形成的
+当内部函数被保存到外部时,将会生成闭包
+
 # 但凡是内部的函数 被保存到了外部 那一定是闭包
 
 # 闭包的作用
 
-实现公有变量
-可以做缓存
+封闭变量
+延长生存周期
 可是实现封装,属性私有化
 模块化开发,防止污染全局变量
-
-# 立即执行函数
-(function(){experssion;}())
-(function(){experssion;})()
-
-only expression can execution!
-能被执行符号执行的表达式,这个函数的名字就会被自动忽略
-
-# 写一个函数,实现手机价格报价
