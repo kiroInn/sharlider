@@ -1,5 +1,18 @@
 # 对象类
 
+## Constructor
+
+// 对象初始化器（Object initialiser）或对象字面量（literal）
+{[nameValuePair1[, nameValuePair2[, ...nameValuePairN]]]}
+
+// 以构造函数形式来调用
+new Object([value])
+
+nameValuePair1, nameValuePair2, ... nameValuePairN
+成对的名称（字符串）与值（任何值），其中名称通过冒号与值分隔。
+value
+任何值
+
 ## 对象属性基本操作
 Create
 Retrieve
@@ -14,8 +27,9 @@ Delete
 
 ## What is the 'new' keyword?
 
-1.It creates a new object,type is simply object.
-2.
+1.It creates a new object
+type is simply object.
+2.property init
 3.return this
 
 # Array类型
