@@ -2,14 +2,16 @@
 
 ## Constructor
 
-// 对象初始化器（Object initialiser）或对象字面量（literal）
+对象初始化器（Object initialiser）或对象字面量（literal）
 {[nameValuePair1[, nameValuePair2[, ...nameValuePairN]]]}
 
-// 以构造函数形式来调用
+以构造函数形式来调用
 new Object([value])
 
-nameValuePair1, nameValuePair2, ... nameValuePairN
-成对的名称（字符串）与值（任何值），其中名称通过冒号与值分隔。
+nameValuePair1,nameValuePair2
+成对的名称（字符串）与值（任何值）
+其中名称通过冒号与值分隔
+
 value
 任何值
 
@@ -27,9 +29,8 @@ Delete
 
 ## What is the 'new' keyword?
 
-1.It creates a new object
-type is simply object.
-2.property init
+1.create new object simply object
+2.current scope varibale initialaztion linked this
 3.return this
 
 # Array类型
