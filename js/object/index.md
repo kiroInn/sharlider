@@ -60,7 +60,7 @@ JavaScript 数组的长度和元素类型都是非固定的
 ## Date类型
 ## Constructor
 new Date();
-new Date(vale);
+new Date(value);
 new Date(dateString);
 new Date(year, month[, day[, hour[, minutes[, seconds[, milliseconds]]]]]);
 
@@ -68,22 +68,48 @@ new Date(year, month[, day[, hour[, minutes[, seconds[, milliseconds]]]]]);
 
 ![](assets/js/dateDesc.png)
 
-## 练习测试你机器的性能
+## 测试你机器的性能
+
+## RegExp
+Regular Experssion
+正则表达式通常被用来检索
+替换那些符合某个模式(规则)的文本
+
+## Create
+var expression = /pattern/flags
+var expression = new RegExp();
+
+## flags
+i,g,m
+
+## metas
+\ 下一字符标记字符
+. 匹配除'\r\n'任何字符
+* 前面子表达式任意次数
++ 匹配一次或多次
+
+()  匹配并获取这一匹配 
+[] 字符集合
+{,,} 非负整数 匹配几次
+
+^ 行首
+$ 行尾
+| 或
+? 
 
 ## Function类型
 
 ## Constructor
 new Function ([arg1[, arg2[, ...argN]],] functionBody)
 
-arg1, arg2, ... argN
 被函数使用的参数的名称必须是合法命名的
 参数名称是一个有效的JavaScript标识符的字符串
-functionBody
-一个含有包括函数定义的JavaScript语句的字符串。
+一个含有包括函数定义的JavaScript语句的字符串
 
 ## Attributes
 Function.arguments
-以数组形式获取传入函数的所有参数。此属性已被arguments替代。
+以数组形式获取传入函数的所有参数
+此属性已被arguments替代。
 
 Function.caller
 获取调用函数的具体对象
@@ -94,7 +120,8 @@ Function.prototype.apply()
 参数能够以数组形式传入
 
 Function.prototype.bind()
-bind()方法会创建一个新函数,称为绑定函数.当调用这个绑定函数时,绑定函数会以创建它时传入 bind()方法的第一个参数作为 this,传入 bind()方法的第二个以及以后的参数加上绑定函数运行时本身的参数按照顺序作为原函数的参数来调用原函数.
+bind()方法会创建一个新函数,称为绑定函数
+当调用这个绑定函数时,绑定函数会以创建它时传入 bind()方法的第一个参数作为 this,传入 bind()方法的第二个以及以后的参数加上绑定函数运行时本身的参数按照顺序作为原函数的参数来调用原函数.
 Function.prototype.call()
 在一个对象的上下文中应用另一个对象的方法；参数能够以列表形式传入。
 
