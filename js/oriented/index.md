@@ -33,8 +33,7 @@ Object.getOwnPropertyDescriptor()
 需要创建对象
 
 ### 构造函数模式
-与工厂模式不同之处
-需要使用new 关键字
+使用new 关键字
 没有显示的创建对象
 直接将属性与方法赋给了this对象;
 没有return语句
@@ -48,14 +47,8 @@ Object.getOwnPropertyDescriptor()
 ## 问题
 构造函数内的函数会重复多次创建
 
-## ref
-constructor
-instanceof
-
 ## 原型模式
-利用prototype
-这个属性是一个指针
-指向一个对象
+每个函数有prototype
 特定类型的所有实例共享的属性和方法
 
 
@@ -72,4 +65,8 @@ instanceof
 ## 原型链
 
 
-
+function test(name,test){
+    var obj = {};
+    obj.__proto__ = test.prototype;
+    test.call(obj) 
+}
