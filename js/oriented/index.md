@@ -63,10 +63,3 @@ Object.getOwnPropertyDescriptor()
 实例都包含一个指向原型对象的内部指针
 
 ## 原型链
-
-
-function test(name,test){
-    var obj = {};
-    obj.__proto__ = test.prototype;
-    test.call(obj) 
-}

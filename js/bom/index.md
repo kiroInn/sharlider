@@ -10,6 +10,7 @@ BOM的核心对象
 javascript访问浏览器的接口
 ECMAScript规定的Global对象
 
+
 ##window.name 与 name区别?
 
 ##窗口关系及框架
@@ -33,6 +34,11 @@ prompt
 ##location
 提供了与当前窗口中加载的文档有关的信息
 还提供了一些导航功能
+
+##url
+uniform resource locator
+
+##理解# ？ &
 
 ##history
 
