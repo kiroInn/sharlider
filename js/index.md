@@ -7,3 +7,5 @@
 
 [Object](?js/object)
 [Oriented](?js/oriented)
+[BOM](?js/bom)
+[DOM](?js/dom)

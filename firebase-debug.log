@@ -1,13 +1,38 @@
-[debug] [2018-01-28T09:20:09.704Z] ----------------------------------------------------------------------
-[debug] [2018-01-28T09:20:09.706Z] Command:       /usr/local/bin/node /usr/local/bin/firebase login --reauth
-[debug] [2018-01-28T09:20:09.706Z] CLI Version:   3.16.0
-[debug] [2018-01-28T09:20:09.706Z] Platform:      darwin
-[debug] [2018-01-28T09:20:09.706Z] Node Version:  v8.9.1
-[debug] [2018-01-28T09:20:09.706Z] Time:          Sun Jan 28 2018 17:20:09 GMT+0800 (CST)
-[debug] [2018-01-28T09:20:09.706Z] ----------------------------------------------------------------------
+[debug] [2018-03-10T01:44:47.701Z] ----------------------------------------------------------------------
+[debug] [2018-03-10T01:44:47.703Z] Command:       /usr/local/bin/node /usr/local/bin/firebase login --reauth
+[debug] [2018-03-10T01:44:47.703Z] CLI Version:   3.16.0
+[debug] [2018-03-10T01:44:47.703Z] Platform:      darwin
+[debug] [2018-03-10T01:44:47.703Z] Node Version:  v8.9.1
+[debug] [2018-03-10T01:44:47.704Z] Time:          Sat Mar 10 2018 09:44:47 GMT+0800 (CST)
+[debug] [2018-03-10T01:44:47.704Z] ----------------------------------------------------------------------
 [debug] 
 [info] 
 [info] Visit this URL on any device to log in:
-[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=103785097&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=351054756&redirect_uri=http%3A%2F%2Flocalhost%3A9005
 [info] 
 [info] Waiting for authentication...
+[debug] [2018-03-10T01:45:11.914Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ { code: '4/AAAf5kuVxkbDh3h7EdmEGFCzJCYzLH9x8mciSoUJ9czA2vkmrM552Ys0qOHQw6PlPg6tB92FXnLSUGt4cIlD7z4',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  redirect_uri: 'http://localhost:9005',
+  grant_type: 'authorization_code' } 
+ Sat Mar 10 2018 09:45:11 GMT+0800 (CST)
+[debug] [2018-03-10T01:46:27.308Z] Token Fetch Error: Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:17)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:34:23)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:186:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:878:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+[debug] [2018-03-10T01:46:35.426Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ { code: '4/AAAf5kuVxkbDh3h7EdmEGFCzJCYzLH9x8mciSoUJ9czA2vkmrM552Ys0qOHQw6PlPg6tB92FXnLSUGt4cIlD7z4',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  redirect_uri: 'http://localhost:9005',
+  grant_type: 'authorization_code' } 
+ Sat Mar 10 2018 09:46:35 GMT+0800 (CST)
