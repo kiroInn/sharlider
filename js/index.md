@@ -9,3 +9,6 @@
 [Oriented](?js/oriented)
 [BOM](?js/bom)
 [DOM](?js/dom)
+
+[JSON](?js/json)
+[AJAX](?js/ajax)
