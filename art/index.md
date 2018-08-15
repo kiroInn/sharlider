@@ -6,3 +6,5 @@
 + Separation principle: policy is separated from mechanism, interface is separated from engine
 + Popular principle: interface design to avoid novelty
 
+## Multiprogramming: separating processes to separate function
+
