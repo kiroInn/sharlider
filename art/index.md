@@ -48,3 +48,18 @@
 + -y yes
 + -z zip
  
+## Interfaces:  user-interface design in the unix environment
+
+array assign attribute binOp block call class control dic dummy for function handler keyword module name
+nameType node op raise rbfloat rbint regexp return slice starred str strembed subscript symbol try
+unaryOP undef url void while yield
+OP 
+numeral : add sub mul div mod pow fllordiv
+comparison: eq eqv eqaual lt gt 
+bit: bitand bit or bitxor in lShift Rshit invert 
+boolean: and or not 
+synthetic: notequal noteq let gte notin  
+ruby defined match notmatch
+
+
+ 
