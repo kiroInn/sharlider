@@ -61,5 +61,8 @@ boolean: and or not
 synthetic: notequal noteq let gte notin  
 ruby defined match notmatch
 
+## unix interface design patterns
 
- 
++ 宽进严出
++ 不需要的信息决不丢弃
++ 绝不添加无用数据 
