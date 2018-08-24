@@ -66,3 +66,11 @@ ruby defined match notmatch
 + 宽进严出
 + 不需要的信息决不丢弃
 + 绝不添加无用数据 
+
+## five editor story
+
++ plain text editor
++ rich editor
++ syntactic awareness
++ output parsing of batch command output
++ interact with an auxiliary child process
